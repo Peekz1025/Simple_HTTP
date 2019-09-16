@@ -16,19 +16,19 @@ const onRequest = (request, response) => {
     case '/page2':
       htmlHandler.getPage2(request, response);
       break;
-	case '/hello':
+    case '/hello':
       textHandler.getHello(request, response);
       break;
-	case '/time':
+    case '/time':
       textHandler.getTime(request, response);
       break;
-	case '/helloJSON':
+    case '/helloJSON':
       jsonHandler.getHelloJSON(request, response);
       break;
-	case '/timeJSON':
+    case '/timeJSON':
       jsonHandler.getTimeJSON(request, response);
       break;
-	case '/dankmemes':
+    case '/dankmemes':
       imageHandler.getImage(request, response);
       break;
     default:
